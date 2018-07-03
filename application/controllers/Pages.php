@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Welcome extends CI_Controller {
 
   public function view($page = 'home') {
-    if (!file_exists(APPPATH. 'views/pages/' + $page) {
+    if (!file_exists(APPPATH. 'views/pages/' + $page)) {
       show_404();
     }
 
