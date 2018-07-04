@@ -1,5 +1,56 @@
 <div class="container">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac pharetra ante, quis ullamcorper lorem. Mauris a lacus arcu. Vestibulum nunc ex, mollis pellentesque ullamcorper et, varius eu felis. Cras rhoncus neque id sapien egestas vestibulum. Maecenas porta ligula eget sapien dignissim gravida. Sed commodo sit amet tellus vel blandit. Curabitur nibh mauris, pulvinar in metus vel, finibus feugiat diam. In ligula sem, gravida vel varius vitae, fermentum quis nibh. Nullam non risus ut elit convallis elementum. Sed sodales, justo nec cursus finibus, elit enim molestie sem, placerat varius augue justo eget turpis. Mauris sollicitudin faucibus vehicula. Mauris dignissim scelerisque elementum.
-  </p>
-</div>
+
+    <div class="starter-template">
+        <h1>Bootstrap starter template</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+    </div>
+    <div class="row text-center text-lg-left">
+
+        <div class="col-md-3 col-sm-4 col-xs-6 top-img">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="http://placehold.it/300x450" alt="">
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 top-img">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="http://placehold.it/300x450" alt="">
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 top-img">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="http://placehold.it/300x450" alt="">
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 top-img">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="http://placehold.it/300x450" alt="">
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 top-img">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="http://placehold.it/300x450" alt="">
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 top-img">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="http://placehold.it/300x450" alt="">
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 top-img">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="http://placehold.it/300x450" alt="">
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-6 top-img">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="http://placehold.it/300x450" alt="">
+            </a>
+        </div>
+
+    </div>
+</div><!-- /.container -->
+<style>
+    .top-img{
+        padding-top: 20px;
+    }
+</style>
