@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Pages extends CI_Controller {
 
   public function index() {
-    $this->view();
+    $this->view('logos', 'admin');
   }
 
   public function view($page = 'index', $path = 'main') {
