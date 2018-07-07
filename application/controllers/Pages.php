@@ -7,8 +7,8 @@ class Pages extends CI_Controller {
   public function index() {
     $this->view();
   }
-  public function partners() {
-    $this->view('partners');
+  public function login() {
+    $this->load->view('main/pages/login');
   }
   public function view( $page = 'index', $path = 'main') {
     if (!file_exists(APPPATH.'views/'. $path . '/pages/'.$page.'.php')) {

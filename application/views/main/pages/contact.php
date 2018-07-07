@@ -1,8 +1,17 @@
-
+<header class="intro-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="page-heading">
+                    <h1>Kontakt</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 <section id="contact">
     <div class="container">
         <div class="section-header">
-            <h2>Contact Us</h2>
             <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
         </div>
 
@@ -10,7 +19,7 @@
 
             <div class="col-md-4">
                 <div class="contact-address">
-                    <i class="fas fa-map-marker-alt"></i>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
                     <h3>Adress</h3>
                     <address>A108 Adam Street, NY 535022, USA</address>
                 </div>
@@ -18,7 +27,7 @@
 
             <div class="col-md-4">
                 <div class="contact-phone">
-                    <i class="fas fa-phone"></i>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
                     <h3>Telefon nummer</h3>
                     <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
                 </div>
@@ -26,7 +35,7 @@
 
             <div class="col-md-4">
                 <div class="contact-email">
-                    <i class="far fa-envelope"></i>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
                     <h3>Email</h3>
                     <p><a href="mailto:info@example.com">info@example.com</a></p>
                 </div>
@@ -34,16 +43,15 @@
 
         </div>
     </div>
-    <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
-
+    <iframe frameborder="0" id="google-map" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD1scrUnlY9VNTKy_UvaElqN5fpN2DHmCA&q=place_id:ChIJDdTr-ESdX0YR7LFjIB6mnbs" allowfullscreen>
+    </iframe>
 </section>
 <style>
-    #contact {
-        padding: 30px 0;
-    }
 
     #contact .contact-info {
-        margin-bottom: 20px;
+        margin-top: 30px;
+        margin-bottom: 50px;
         text-align: center;
     }
 
@@ -93,8 +101,8 @@
     }
 
     #contact #google-map {
-        height: 290px;
-        margin-bottom: 20px;
+        width: 100%;
+        height: 300px;
     }
 
     @media (max-width: 576px) {
@@ -105,5 +113,7 @@
     .section-header{
         text-align: center;
     }
-
+    iframe{
+        display:block;
+    }
 </style>
