@@ -28,18 +28,26 @@
                 font-size: 15px;
                 font-weight: bold;
             }
-
         </style>
     </head>
     <body>
-        <div class="login-form">
-            <form action="#" method="post">
+        <div  class="login-form">
+
+            <form name="admin_login" action="/index.php/admin/login" method="post">
+                    <?php
+                    if ($this->session->flashdata('message')) {
+                        echo '<div class="alert alert-danger" role="alert">'
+                        .  $this->session->flashdata('message')
+                        . '</div>';
+                    }
+                    ?>
+
                 <h2 class="text-center">Log in</h2>       
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Username" required="required">
+                    <input name="username" type="text" class="form-control" placeholder="Username" required="required">
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password" required="required">
+                    <input name="password" type="password" class="form-control" placeholder="Password" required="required">
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary btn-block">Log in</button>
@@ -50,4 +58,4 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
     </body>
-</html>                                		                            
+</html>
