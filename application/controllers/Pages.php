@@ -5,12 +5,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Pages extends CI_Controller {
 
   public function index() {
-    $this->view();
+    $this->view('logos', 'admin');
   }
-  public function login() {
-    $this->load->view('main/pages/login');
-  }
-  public function view( $page = 'index', $path = 'main') {
+
+  public function view($page = 'index', $path = 'main') {
     if (!file_exists(APPPATH.'views/'. $path . '/pages/'.$page.'.php')) {
       show_404();
     }
